@@ -1,1 +1,63 @@
+             # Topolgy:
+  Layout of how a network communicates with devices
+Types:
+1.  Star Topology -most common. One central point connecting to all devices..like a hub or a switch
+Data passes to the central point before passing to all devices
+if one computer fails ,others are not affected
+Single point of failure(major disadvantage).
+2.  Bus Topology- network devices are connected to  a backbone cable(coaxial cable),BNC connectors /T connectors
+- Cheap and Easy to implemented
+disav: the ends must be terminated by terminators.
+  Data flows once at a time ,if more is added it fails,also, if terrminators are lose or missing and or a computer removed or added ..the  cable would be open and dtata would bounce back.. This is a SIGNAL REFLECTION leads to disruption of data flow.
+3.  Ring Topology
+Each computer is connected to each other like a ring or circular. Easy to uninstall and troubleshoot.Disadv, If one computer/device fails others are affected.
+Rarely used today.
+4.  Mesh Topology
+-Each computer is connected to all other computers and this handles failure very well.
+Too much cabling hence expensive
+Internet is a Mesh topolgy ,creates high redundancy.
+5.   Hybrid Topology
+eg star ring
+star bus
+5.   Point to point Topolgy
+Simplest form cause its just two hosts connected to each other with one cable.
+6. Client Server Topology
+clients connects directly to a central server
+Most common, cause its cheaper..Admin puts resources on one machine then the rest can get information from it.
+7.  Point to Multipoint Topology 
+One server to several clients, the server is called the base station/accesspoint
+All clients are not connected
+8.  Peer to Peer topology
+All clients talk with other clients communicate to share resources ,no central servers
+simple to set up..in homes and small offices
 
+               ##CONNECTORS
+ ~RJ-11 CONNECTOR -usually a telephone jack.
+  Registered jack- Used to connect computers to local networks through modems
+  Has a high hinged locking tab that locks itself in place.
+  Smaller than rj- 45.
+  
+~RJ-45 CONNECTOR
+Commonest network connector to connect computers to local area networks.It looks like rj-11 but larger.Locks. by hinged locking tabs
+
+~RJ-48c CONNECTOR
+Similar to RJ-45 only that its used with a shielded twisted pair.Wired differently
+Hinged locking tab 
+Used with  t1 lines and wired diferently.
+
+~ UTP coupler
+Used to connect UTP cables with RJ-45 cables with each other.Extending UTP cable.
+
+~BNC CONNECTOR(Bayonet Neil-Concelman).
+ype of RF connector
+Used for both analog and digital videos and audio transmissiom
+
+~ Fiber Couplers
+Join 2 of the same fiber optic connectors.
+Different from fiber adapters.
+
+~ F-Type Coupler
+Screws on connectors 
+
+
+  
